@@ -1,6 +1,10 @@
-# React App
+# OOSE DT | 2019 - 2020
 
-Webpack, Typescript, React, Eslint, Prettier, HMR, Jest
+Casus by Niels Hensen en Maikey Sip
+
+## Technologies:
+
+Webpack, Typescript, React, Mobx, Eslint, Prettier, Hot Module Reloading (HMR), Jest
 
 # Quick start
 
@@ -10,7 +14,7 @@ Install dependencies.
 yarn
 ```
 
-Run in development.
+Run the `yarn start` command to serve the website at localhost:8080
 
 ```
 yarn start
@@ -18,17 +22,8 @@ yarn start
 
 # Production
 
-Run the `build` command to create a build in the `dist` folder.
+Run the `yarn build` command to create a build in the `dist` folder.
 
 ```
 yarn build
-```
-
-## Maintenance
-
-```
-yarn global add syncyarnlock // install syncyarnlock globally
-yarn upgrade // update dependencies, updates yarn.lock
-syncyarnlock -s -k // updates package.json with versions installed from yarn.lock
-yarn install // updates yarn.lock with current version constraint from package.json
 ```
