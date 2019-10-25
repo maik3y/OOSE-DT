@@ -1,0 +1,31 @@
+{
+  "clearMocks": true,
+  "moduleFileExtensions": ["js", "ts", "json", "tsx"],
+  "moduleNameMapper": {
+    "\\.(css|less|scss|png|jpg)$": "identity-obj-proxy"
+  },
+  "modulePathIgnorePatterns": ["<rootDir>/dist/", "<rootDir>/.yarn/"],
+  "setupFiles": ["./__tests__/setupTests.ts"],
+  "testMatch": ["**/?(*.)+(spec|test).[jt]s?(x)"],
+  "reporters": [
+    "default",
+    [
+      "jest-junit",
+      {
+        "suiteName": "Jest tests",
+        "outputDirectory": "./dist/test"
+      }
+    ]
+  ],
+  "coverageDirectory": "./dist/coverage/",
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/**/*.{tsx,ts}", "!src/index/index.tsx"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0,
+      "statements": 0
+    }
+  }
+}

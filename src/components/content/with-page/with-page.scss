@@ -1,0 +1,10 @@
+@import '../../../style-configs/mixins/mixins.scss';
+
+.page {
+  @include flex;
+  padding: 24rem;
+
+  &__title {
+    font-size: 30rem;
+  }
+}

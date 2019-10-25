@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "target": "esnext",
+    "esModuleInterop": true // Required to resolve: https://github.com/airbnb/enzyme/issues/1284
+  }
+}

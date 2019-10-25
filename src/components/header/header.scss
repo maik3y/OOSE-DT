@@ -1,0 +1,6 @@
+@import '../../style-configs/mixins/mixins.scss';
+
+.header {
+  @include flex;
+  padding: 24rem;
+}
