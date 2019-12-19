@@ -8,8 +8,11 @@ const Menu: React.FC = () => {
       <NavLink className="menu__link" exact to={'/'}>
         Home
       </NavLink>
-      <NavLink className="menu__link" exact to={'/about'}>
-        About
+      <NavLink className="menu__link" exact to={'/lessen'}>
+        Lessen
+      </NavLink>
+      <NavLink className="menu__link" exact to={'/toetsen'}>
+        Toetsen
       </NavLink>
       <NavLink className="menu__link" exact to={'/404notfound'}>
         404 not found
